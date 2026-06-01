@@ -1,0 +1,24 @@
+# General parts
+
+There are a few general parts needed with sub parts to create them main items.
+- Brain
+- Power supply
+- Water propultion system
+
+## Brain
+
+- For the brain, and arduino will be used. most likely the Pro Mini as it will have the most efficient sleep mode to optimize battery life due to no usb chip drawing constant power. If the usb chip is wanted then arduino nano will work.
+
+- The arduino will need to spend most of its time in sleep mode, therefore an rtc module will be needed to keep track of time while the arduino is sleeping
+
+## Power Supply
+
+- some sort of 3s lipo that i ideally can charge on the chargers i already own
+
+## Water propultion system
+
+- https://www.aliexpress.com/item/1005007127275374.html?spm=a2g0o.productlist.main.41.30e6u20bu20bpa&algo_pvid=cdecb0cb-cdef-4c36-8e56-e3dcabf52175&algo_exp_id=cdecb0cb-cdef-4c36-8e56-e3dcabf52175-38&pdp_ext_f=%7B%22order%22%3A%224074%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%213.94%213.94%21%21%2134.80%2134.80%21%402103856417803207498824808e1c60%2112000039493564045%21sea%21UK%216068673082%21X%211%210%21n_tag%3A-29919%3Bd%3Adc5e22a4%3Bm03_new_user%3A-29895&curPageLogUid=dkp1myfaO4C7&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007127275374%7C_p_origin_prod%3A
+
+- https://www.aliexpress.com/item/1005011999569522.html?spm=a2g0o.productlist.main.3.522c17e5wPAlnp&algo_pvid=4e0e091f-2338-47e9-a304-dbc555ccd047&algo_exp_id=4e0e091f-2338-47e9-a304-dbc555ccd047-2&pdp_ext_f=%7B%22order%22%3A%2232%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%213.60%211.69%21%21%2131.80%2114.93%21%40211b813b17803213126234216ecf08%2112000057241899959%21sea%21UK%216068673082%21X%211%210%21n_tag%3A-29919%3Bd%3Adc5e22a4%3Bm03_new_user%3A-29895&curPageLogUid=pmNl2GlwTBP7&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005011999569522%7C_p_origin_prod%3A
+
+- https://www.aliexpress.com/item/1005008583214593.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.10.3d06EbV1EbV1WE&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=30c46c1e-706f-4a06-afb8-ef200af3209c&_t=gps-id%3ApcDetailTopMoreOtherSeller%2Cscm-url%3A1007.40050.354490.0%2Cpvid%3A30c46c1e-706f-4a06-afb8-ef200af3209c%2Ctpp_buckets%3A668%232846%238113%231998&pdp_ext_f=%7B%22order%22%3A%221981%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21GBP%212.40%212.24%21%21%213.14%212.93%21%400b884c0217803214694311209e11fd%2112000045830358847%21rec%21UK%216068673082%21XZ%211%210%21n_tag%3A-29919%3Bd%3Adc5e22a4%3Bm03_new_user%3A-29895&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008583214593%7C_p_origin_prod%3A
